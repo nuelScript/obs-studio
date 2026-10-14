@@ -3461,6 +3461,32 @@
             "recommended": {
                 "max audio bitrate": 96
             }
+        },
+        {
+            "name": "Reedapt Live",
+            "more_info_link": "https://reedapt.live/help/obs",
+            "stream_key_link": "https://reedapt.live/go-live",
+            "servers": [
+                {
+                    "name": "US East (RTMPS)",
+                    "url": "rtmps://ingest.reedapt.com:443/ingest"
+                },
+                {
+                    "name": "US East (RTMP)",
+                    "url": "rtmp://ingest.reedapt.com:1935/ingest"
+                }
+            ],
+            "supported video codecs": [
+                "h264"
+            ],
+            "supported audio codecs": [
+                "aac"
+            ],
+            "recommended": {
+                "keyint": 2,
+                "max video bitrate": 6000,
+                "max audio bitrate": 160
+            }
         }
     ]
 }
